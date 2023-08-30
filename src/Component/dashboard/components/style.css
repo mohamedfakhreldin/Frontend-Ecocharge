@@ -1,0 +1,22 @@
+
+.sidebar.sidebar-fixed .nav-link.active{
+    background-color: lightgreen;
+}
+.header-toggler{
+    position: fixed;
+    top: 5px;
+    z-index: 44444;
+    color: #9c9c9c;
+}
+@media (min-width: 768px){
+
+    .sidebar.sidebar-fixed:not(.sidebar-end) {
+        left: auto;
+    }
+    
+
+    .sidebar.right.hide:not(.sidebar-end) {
+        margin-right: calc(-1 * var(--cui-sidebar-width));
+      }
+    
+}

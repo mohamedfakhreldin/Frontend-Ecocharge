@@ -1,0 +1,253 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "revert"; */
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.card {
+    /* height: 536px; */
+    width: 25rem;
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    position: relative;
+    margin:3px;
+    padding:4rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1
+}
+
+.overlay .fa-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff
+}
+
+.overlay img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s
+}
+
+.d-none {
+    display: none
+}
+
+.fa-close {
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.black {
+    background-color: #000 !important;
+    color: #fff !important
+}
+
+.font_icons {
+    color: #fff !important
+}
+
+.top_part {
+    padding: 0 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #505050;
+    cursor: pointer
+}
+
+.icons .fa-heart-o {
+    margin-right: 10px
+}
+
+.icons .fa-heart {
+    margin-right: 10px;
+    color: red
+}
+
+.fa-moon-o {
+    margin-right: 5px
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 2rem;
+    flex-direction: column
+}
+
+.circle span {
+    display: flex;
+    height: 225px;
+    width: 228px;
+    /* border: 3px solid rgb(45, 159, 124); */
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s;
+    /* margin-top: 15vh; */
+}
+
+.circle span img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.5s
+}
+.circle span:hover
+{
+    box-shadow:5px 5px 30px black;
+
+}
+.circle span img:hover
+{
+    transform: scale(1.2,1.2);
+
+}
+
+
+.card p {
+    padding: 0 20px;
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700
+}
+
+.card hr {
+    margin-top: 15px
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
+}
+
+.button button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6d5afa;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.button button:hover {
+    background-color: blue
+}
+
+.social {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+.social .fa-twitter {
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    bottom: -100px
+}
+
+.card:hover .fa-twitter {
+    bottom: -15px
+}
+
+.fa-linkedin {
+    position: absolute;
+    left: 153px;
+    bottom: -100px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.card:hover .fa-linkedin {
+    bottom: -15px
+}
+
+.fa-whatsapp {
+    position: absolute;
+    left: 288px;
+    bottom: -100px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.card:hover .fa-whatsapp {
+    bottom: -15px
+}
+
+
+.particles {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .content:focus,
+  .content > *:focus {
+    outline: none;
+  }
+  
+  .canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    pointer-events: none;
+  }
+
+.btnTagEdit
+  {
+    border:none;
+    border-radius: 5rem;
+    padding: 9px;
+    font-weight: bold;
+    font-size: 20px;
+    /* letter-spacing: 1.1pt; */
+    background-color: rgb(45, 159, 124);
+    color:white;
+    font-family: "Lucida Calligraphy";
+  }
+  .btnTagEdit:hover
+  {
+    background-color: rgb(135, 133, 88);
+  }

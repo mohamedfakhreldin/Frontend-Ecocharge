@@ -1,0 +1,35 @@
+
+.avatar
+{
+    background-color:rgb(234, 231, 177);
+}
+.avatar:hover
+{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+
+}
+.navbarHome
+{
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 10;
+    font-family: "Lucida Calligraphy" !important;
+}
+
+.UserName
+{
+    padding-left:0.3rem;
+    align-self:center;
+    color:#8c8a5b;
+    font-weight:bold;
+
+}
+
+.containerData
+{
+    height:50px;
+    display:flex;
+    flex-direction:row;
+}

@@ -1,0 +1,24 @@
+.mapboxgl-ctrl-directions.mapboxgl-ctrl{
+    overflow: scroll;
+    height: 400px;
+}
+.directions-icon.directions-icon-reverse.directions-reverse.js-reverse-inputs{
+    display: none;
+}
+.suggestions-wrapper{
+    background-color: white;
+}
+.mapboxgl-ctrl-directionsزmapboxgl-ctrl{
+    opacity: 0.7;
+}
+.geocoder-pin-right{
+    display: none;
+}
+.mapbox-directions-component.mapbox-directions-route-summary h1{
+    font-size: 26px
+}
+.mapboxgl-ctrl-top-left
+{
+background-color:rgb(191 189 146) ;
+}
+

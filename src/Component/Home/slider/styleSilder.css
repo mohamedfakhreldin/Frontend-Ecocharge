@@ -1,0 +1,12 @@
+h3
+{
+    font-family: "revert"!important
+}
+.carousel.slide.rtl .carousel-control-next {
+    right: auto;
+    left: 0 !important;
+  }
+  .carousel.slide.rtl .carousel-control-prev {
+    right: 0 !important;
+    left: auto;
+  }

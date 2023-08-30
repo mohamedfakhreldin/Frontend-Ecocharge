@@ -1,0 +1,83 @@
+.contact{
+
+    background-size: cover;
+    background-position: center;
+    font-family: "revert" !important;
+}
+.contact-layer{
+width: 100%;
+background-color:rgba(45, 159 ,124,0.7);
+}
+.sendBtn{
+background-color:rgba(45, 159 ,124,0.9) !important;
+border: 1px solid rgba(45, 159 ,124,0.9) !important;
+
+}
+.sendBtn:hover{
+    background-color:rgb(62, 77, 52,.9);
+    /* color:rgba(45, 159 ,124,0.9); */
+border: 1px solid rgba(45, 159 ,124,0.9);
+
+    
+    }
+.iPrand{
+    color: black;
+}
+.iPrand:hover{
+    color: white;
+}
+/* .form-control{
+border-radius: 0;
+
+} */
+.contact-h{
+position: relative;
+}
+.contact-h::after{
+content: " ";
+background-color: rgba(45 159 124);
+position: absolute;
+top: 110%;
+left: 5px;
+height: 3px;
+width: 25%;
+}
+.contact-h.rtl::after {
+    content: " ";
+    background-color: rgba(45 159 124);
+    position: absolute;
+    top: 110%;
+    right: 5px;
+    height: 3px;
+    width: 25%;
+}
+.form-control.rtl{
+      direction:rtl !important;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+
+border-radius: 5rem !important;
+}
+.icons{
+width: 45px;
+height: 45px;
+padding: 15px;
+border:solid 4px rgba(45 159 124);
+}
+.icons i{
+font-size: 20px;
+}
+.icons:hover{
+background-color:rgb(62, 77, 52,.9);
+
+border: solid 4px rgba(211, 218, 226, 0.9);
+}
+
+.list-contact{
+list-style: none;
+padding-left: 0;
+}
+.contact-icon{
+color: rgba(45 159 124);
+}
